@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<title>lang.de_appname</title>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<script type="text/javascript" charset="utf-8" src="../js/standard.js"></script>
+		<script type="text/javascript" charset="utf-8" src="../js/lib/cordova.js"></script>
+		<script type="text/javascript" charset="utf-8" src="../js/lang/de.js"></script>
+	</head>
+	<body>
+		<div id="general">
+			<span>lang_de.general</span>
+			<br>
+			<input type="button" class="button_general" value='lang_de.about' onclick="redirectPageAbout()" />
+			<input type="button" class="button_general" value="lang_de.guidance" onclick="redirectPageGuidance()" />
+			<input type="button" class="button_general" value="lang_de.settings" onclick="redirectPageSettings()" />
+		</div>
+		<hr>
+		<div>
+			<select id="categorySelect">
+				<option>lang_de.choose_category</option>
+			</select>
+			<br>
+			<input type="button" value="lang_de.createCategory" onclick="createNewCategory()"/>
+		</div>
+	</body>
+</html>
